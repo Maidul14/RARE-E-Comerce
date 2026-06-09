@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Apex US E-Commerce</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Optionals: Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <style>
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: #f8f9fa;
+            color: #212529;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .navbar-brand {
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+        .product-card {
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            transition: transform 0.2s, box-shadow 0.2s;
+            overflow: hidden;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+        .footer {
+            margin-top: auto;
+            background-color: #1a1d20;
+            color: #adb5bd;
+        }
+        .badge-cart {
+            font-size: 0.75rem;
+            transform: translate(-3px, -8px);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+            <div class="container">
+                <a class="navbar-brand text-white d-flex align-items-center" asp-controller="Home" asp-action="Index">
+                    <i class="bi bi-shop me-2 text-primary"></i> APEX US COMMERCE
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <form class="d-flex mx-auto col-lg-6 my-2 my-lg-0" asp-controller="Home" asp-action="Index" method="get">
+                        <div class="input-group">
+                            <input class="form-control" type="search" name="search" placeholder="Search premium US goods..." value="@ViewData["SearchQuery"]" />
+                            <button class="btn btn-primary" type="submit"><i class="bi bi-search"></i></button>
+                        </div>
+                    </form>
+                    <ul class="navbar-nav ms-auto align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link text-white position-relative px-3" asp-controller="Cart" asp-action="Index">
+                                <i class="bi bi-cart3 fs-5"></i>
+                                <span class="badge rounded-pill bg-danger badge-cart">
+                                    @{
+                                        // Simple Session shopping cart calculation in layout
+                                        var cartJson = Context.Session.GetString("_ShopCart");
+                                        int cartCount = 0;
+                                        if(!string.IsNullOrEmpty(cartJson)) {
+                                            try {
+                                                var list = System.Text.Json.JsonSerializer.Deserialize<List<CartItemSession>>(cartJson);
+                                                cartCount = list?.Sum(i => i.Quantity) ?? 0;
+                                            } catch {}
+                                        }
+                                        @cartCount
+                                    }
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item ms-lg-2">
+                            <a class="btn btn-outline-light btn-sm" asp-controller="Admin" asp-action="Dashboard">
+                                <i class="bi bi-shield-lock-fill me-1"></i> Admin Area
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main" class="container py-5">
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                <i class="bi bi-check-circle-fill me-2"></i> @TempData["SuccessMessage"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        }
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <i class="bi bi-exclamation-triangle-fill me-2"></i> @TempData["ErrorMessage"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        }
+
+        @RenderBody()
+    </main>
+
+    <footer class="footer py-4 mt-5">
+        <div class="container text-center text-md-start">
+            <div class="row">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <h6 class="text-white text-uppercase font-weight-bold">Apex US Trading Platform</h6>
+                    <p class="small text-muted mb-0">Providing standard fast-shipping secure goods across the United States. Designed in Portland, USA.</p>
+                </div>
+                <div class="col-md-6 text-md-end text-muted small align-self-center">
+                    <span>&copy; @DateTime.Now.Year Apex E-Commerce. Built on ASP.NET Core MVC & EF Core.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

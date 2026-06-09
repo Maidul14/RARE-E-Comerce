@@ -1,0 +1,591 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Tech & Electronics",
+      "slug": "tech-electronics"
+    },
+    {
+      "id": "2",
+      "name": "Apparel & Luxury Fashion",
+      "slug": "apparel-luxury-fashion"
+    },
+    {
+      "id": "3",
+      "name": "Furniture & Living",
+      "slug": "furniture-living"
+    },
+    {
+      "id": "4",
+      "name": "Home Decoration & Accents",
+      "slug": "home-decoration-accents"
+    }
+  ],
+  "products": [
+    {
+      "id": "p-seed-1",
+      "categoryid": "1",
+      "name": "Apple iPhone 16 Pro Max (512GB, Natural Titanium)",
+      "price": 1399,
+      "description": "Experience the peak of mobile engineering. Built with a solid, lightweight Grade 5 titanium frame and larger 6.9-inch screen. Powered by the hyper-efficient A18 Pro chip with the next-gen Neural Engine for flawless performance, featuring the direct tactile Camera Control slider pad.",
+      "images": "[\"https://images.unsplash.com/photo-1611791485938-1a2a43b44b82?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 24,
+      "sku": "APL-16PM-512-NT-LE",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-1-0\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-30T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-1-1\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-25T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-1-2\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-20T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-2",
+      "categoryid": "1",
+      "name": "Samsung Galaxy S25 Ultra 5G (512GB, Titanium Silver)",
+      "price": 1299,
+      "description": "The absolute zenith of Android mobile systems. Constructed with a grade 5 titanium frame and featuring the blazing-fast Snapdragon 8 Gen 4 AI-optimized processor, flat 6.8-inch Dynamic AMOLED 2X flat display, integrated S-Pen, and 200MP camera sensor.",
+      "images": "[\"https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 18,
+      "sku": "SAM-S25U-512-TS-LE",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-2-0\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-29T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-2-1\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-24T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-2-2\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-19T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-2-3\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-14T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-3",
+      "categoryid": "1",
+      "name": "DJI Mavic 3 Pro Drone (Fly More Combo, DJI RC Pro)",
+      "price": 2199,
+      "description": "High-end aerial cinematography drone system. Sports a world-class Hasselblad primary camera with a 4/3 CMOS sensor, plus custom dual-telephoto physical focal lenses. Supports ProRes 422 recording and advanced omnidirectional mapping.",
+      "images": "[\"https://images.unsplash.com/photo-1506947411108-013748888cbd?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 14,
+      "sku": "DJI-MAVC-3PRO-LE",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-3-0\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-28T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-3-1\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-23T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-3-2\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-18T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-3-3\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-13T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-3-4\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-08T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-4",
+      "categoryid": "1",
+      "name": "Apple MacBook Pro 14-inch M4 Pro (1TB SSD, Space Black)",
+      "price": 1999,
+      "description": "Engineered for designers, developers, and creators. The Apple MacBook Pro runs on the custom-silicon M4 Pro chip with a 14-core CPU and 20-core GPU. Outfitted with Liquid Retina XDR display yielding up to 1600 nits peak luminance.",
+      "images": "[\"https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 31,
+      "sku": "APL-MBP14-M4P-LE",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-4-0\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-27T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-4-1\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-22T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-4-2\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-17T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-5",
+      "categoryid": "1",
+      "name": "Sony Bravia XR 75-inch Mini-LED 4K Ultra HD HDR TV",
+      "price": 2498,
+      "description": "Transform your home theater with cinematic full-array luminance. Embedded Cognitive Processor XR dynamically analyzes focal points to render photorealistic organic colors, deep onyx blacks, and extreme peak brightness.",
+      "images": "[\"https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 10,
+      "sku": "SNY-BRV-XR75-LE",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-5-0\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-26T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-5-1\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-21T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-5-2\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-16T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-5-3\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-11T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-6",
+      "categoryid": "1",
+      "name": "Asus ROG Zephyrus G16 Gaming Laptop (OLED, RTX 4080)",
+      "price": 2699,
+      "description": "Uncompromised gaming power in a thin obsidian chassis. Powered by Intel Core Ultra 9 and NVIDIA RTX 4080 GPU, showcasing an breathtaking 2.5K 240Hz ROG Nebula OLED display for perfect responsive accuracy.",
+      "images": "[\"https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 15,
+      "sku": "ASU-ROG-G16-4080",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-6-0\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-25T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-6-1\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-20T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-6-2\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-15T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-6-3\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-10T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-6-4\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-05T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-7",
+      "categoryid": "1",
+      "name": "Bose QuietComfort Ultra Spatial Audio Headphones",
+      "price": 429,
+      "description": "The absolute pinnacle of personal audio immersion. Integrates world-class active hybrid noise cancellation paired with Bose Immersive Audio spatial grids to construct unmatched depth and presence for audiophiles.",
+      "images": "[\"https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 45,
+      "sku": "BSE-QC-ULTRA-BLK",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-7-0\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-24T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-7-1\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-19T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-7-2\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-14T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-8",
+      "categoryid": "1",
+      "name": "Canon EOS R5 Mark II Mirrorless Camera (Body Only)",
+      "price": 3899,
+      "description": "The professional benchmark for elite commercial creators. Features a newly designed 45-megapixel stacked back-illuminated sensor, next-gen eye control autofocus tracking, and up to 8K RAW cinema recording.",
+      "images": "[\"https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 8,
+      "sku": "CAN-EOS-R5M2-BO",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-8-0\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-23T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-8-1\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-18T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-8-2\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-13T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-8-3\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-08T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-9",
+      "categoryid": "1",
+      "name": "LG C4 Series 65-Inch OLED evo 4K Smart TV",
+      "price": 1699,
+      "description": "Experience infinite contrast and self-lit pixels at their brightest. Features the custom α9 AI Processor Gen7 for advanced 4K upscaling, immersive Dolby Vision settings, and AMD FreeSync Premium gaming suites.",
+      "images": "[\"https://images.unsplash.com/photo-1558882224-dda166733360?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 12,
+      "sku": "LGE-C4-OLED65-EVO",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-9-0\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-22T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-9-1\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-17T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-9-2\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-12T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-9-3\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-07T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-9-4\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-02T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-10",
+      "categoryid": "1",
+      "name": "Sonos Ultimate spatial theater System (Arc + Sub + Era 300 Pairs)",
+      "price": 2499,
+      "description": "The definitive multidirectional spatial Dolby Atmos audio system. Comprising the award-winning Sonos Arc soundbar, dual Sub subwoofers, and Era 300 surround speakers emitting authentic height-reflection effects.",
+      "images": "[\"https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 7,
+      "sku": "WEL-SONOS-ULT-SYS",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-10-0\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-21T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-10-1\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-16T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-10-2\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-11T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-11",
+      "categoryid": "1",
+      "name": "Apple Watch Ultra 2 (GPS + Cellular, Titanium)",
+      "price": 799,
+      "description": "The ultimate rugged outdoor adventure device. Constructed with a 49mm aerospace-grade titanium case, ultra-bright 3000-nit Always-On Retina display, dual-frequency high-precision GPS, and up to 72 hours of battery life.",
+      "images": "[\"https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 22,
+      "sku": "APL-WCH-ULT2-TI",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-11-0\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-30T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-11-1\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-25T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-11-2\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-20T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-11-3\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-15T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-12",
+      "categoryid": "1",
+      "name": "GoPro HERO13 Black Creator Edition Action Camera",
+      "price": 599,
+      "description": "Everything you need to capture professional-grade, high-impact adventure videos on the fly. Offers hyper-smooth 5.3K video stabilization, integrated professional battery grip handle, multi-directional microphone, and LED lighting accessories.",
+      "images": "[\"https://images.unsplash.com/photo-1565130838608-22045233fb1e?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 19,
+      "sku": "GPR-H13-CREATOR-ED",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-12-0\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-29T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-12-1\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-24T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-12-2\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-19T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-12-3\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-14T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-12-4\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-09T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-13",
+      "categoryid": "1",
+      "name": "Sennheiser HD 800 S High-Fidelity Reference Headphones",
+      "price": 1799,
+      "description": "The legendary open-back acoustic reference headphones. Engineered in Germany utilizing custom 56mm ring radiator transducer systems. Renders unmatched expansive soundstage presence and clean neutral frequency responses.",
+      "images": "[\"https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 6,
+      "sku": "SNH-HD800S-REF",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-13-0\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-28T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-13-1\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-23T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-13-2\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-18T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-14",
+      "categoryid": "2",
+      "name": "Burberry Heritage Kensington Mid-Length Trench Coat",
+      "price": 2490,
+      "description": "Topped with detailed horn buttons and a legacy check-lined drape, defining generations of signature outdoor wear. Made in Castleford, England, using weather-resistant and breathable cotton gabardine weave.",
+      "images": "[\"https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 11,
+      "sku": "BUR-KENS-TRN-LE",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-14-0\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-27T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-14-1\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-22T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-14-2\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-17T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-14-3\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-12T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-15",
+      "categoryid": "2",
+      "name": "Canada Goose Men's Expedition Winter Cold Parka Jacket",
+      "price": 1495,
+      "description": "Developed for researchers at McMurdo Station in Antarctica. Employs water-resistant Arctic Tech fabric, abundant utility pocketing, and deep premium down fill designed to survive deep arctic conditions down to -30°C.",
+      "images": "[\"https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 9,
+      "sku": "CAN-EXP-PRK-LE",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-15-0\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-26T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-15-1\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-21T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-15-2\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-16T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-15-3\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-11T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-15-4\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-06T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-16",
+      "categoryid": "2",
+      "name": "Loro Piana Road Connection Baby Cashmere Full-Zip Jacket",
+      "price": 3850,
+      "description": "Exquisite Italian luxury. Sourced from organic, long-staple baby cashmere undercoats in Inner Mongolia for perfect weightless insulation, paired with hand-finished goatskin suede trim accents.",
+      "images": "[\"https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 5,
+      "sku": "LOR-PCM-ZIP-LE",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-16-0\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-25T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-16-1\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-20T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-16-2\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-15T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-17",
+      "categoryid": "2",
+      "name": "Moncler Maya Classic Hooded Short Down Puffer Jacket",
+      "price": 1650,
+      "description": "Iconic alpine streetwear. High-gloss water-resistant laqué exterior stuffed with superior grade goose feather down. Features a detachable protective hood, signature sleeve patch pocket, and heavy dual-zip front.",
+      "images": "[\"https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 14,
+      "sku": "MON-MAY-PFR-LE",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-17-0\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-24T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-17-1\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-19T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-17-2\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-14T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-17-3\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-09T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-18",
+      "categoryid": "2",
+      "name": "Shinola The Runwell Automatic 47mm Watch",
+      "price": 1150,
+      "description": "Detroit signature timepiece showcasing Swiss Ronda automatic caliber movement. Crafted with a stunning curved sapphire window, robust 47mm polished steel case, and premium raw hand-stitched Horween leather strap.",
+      "images": "[\"https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 12,
+      "sku": "SHI-RUN-AUTO-LE",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-18-0\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-23T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-18-1\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-18T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-18-2\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-13T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-18-3\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-08T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-18-4\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-03T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-19",
+      "categoryid": "2",
+      "name": "Omega Speedmaster Professional Moonwatch Chronograph",
+      "price": 3800,
+      "description": "A legendary horological icon authorized for all NASA manned space missions. Showcases the manually-wound caliber 3861 coaxial escapement movement, protected inside a robust 42mm brushed and polished steel casing.",
+      "images": "[\"https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 4,
+      "sku": "OMG-MOON-WATCH-SPD",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-19-0\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-22T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-19-1\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-17T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-19-2\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-12T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-20",
+      "categoryid": "2",
+      "name": "Saint Laurent Classic Motorcycle Leather Jacket",
+      "price": 3150,
+      "description": "The quintessential French rock-and-roll aesthetic. Expertly handcrafted in Italy using ultra-supple selected calfskin leather, detailed with polished heavy steel asymmetrical front zippers and button-down collar folds.",
+      "images": "[\"https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 7,
+      "sku": "YSL-MTC-CYCLE-BLK",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-20-0\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-21T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-20-1\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-16T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-20-2\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-11T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-20-3\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-06T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-21",
+      "categoryid": "2",
+      "name": "Red Wing Heritage Iron Ranger 6-Inch Leather Boots",
+      "price": 349,
+      "description": "Historic heavy duty military-grade utility boots styled with speed hooks and a double-layer leather toe cap. Constructed using rugged copper rough-and-tough leather stitched to durable Goodyear-welted rubber soles.",
+      "images": "[\"https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 28,
+      "sku": "RDW-RNG-06-WLT",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-21-0\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-30T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-21-1\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-25T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-21-2\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-20T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-21-3\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-15T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-21-4\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-10T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-22",
+      "categoryid": "2",
+      "name": "Hermès Leather Collier de Chien Premium Bracelet",
+      "price": 1250,
+      "description": "A supreme leather fashion accessory highlighting bold French architectural lines. Features a thick band of premium Epsom leather lined with signature gleaming gold-brass metal pyramid studs and ring toggles.",
+      "images": "[\"https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 8,
+      "sku": "HER-CDC-EPSOM-BRC",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-22-0\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-29T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-22-1\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-24T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-22-2\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-19T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-23",
+      "categoryid": "2",
+      "name": "Gucci GG Marmont Small Shoulder Bag in Premium Leather",
+      "price": 2590,
+      "description": "A signature statement of high-fashion luxury. Expertly crafted in Italy using beautiful matelassé chevron quilted leather, highlighted by retro-styled antique gold Double G interlocking hardware on the front fold.",
+      "images": "[\"https://images.unsplash.com/photo-1566150905458-1bf1fc15a630?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 10,
+      "sku": "GUC-MARMONT-SM-BAG",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-23-0\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-28T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-23-1\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-23T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-23-2\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-18T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-23-3\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-13T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-24",
+      "categoryid": "2",
+      "name": "Prada Re-Nylon Light Padded Technical Shell Jacket",
+      "price": 1850,
+      "description": "A minimalist blend of outdoor utility and Milanese couture. Handcrafted utilizing sustainable ocean-reclaimed recycled technical fibers, lined with warming micro-layers and crowned with Prada's classic metal triangle logo.",
+      "images": "[\"https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 13,
+      "sku": "PRD-NYL-SHELL-BLK",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-24-0\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-27T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-24-1\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-22T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-24-2\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-17T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-24-3\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-12T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-24-4\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-07T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-25",
+      "categoryid": "2",
+      "name": "Balenciaga Triple S Clear Sole Premium Fashion Sneakers",
+      "price": 1100,
+      "description": "The definitive high-end streetwear icon that pioneered the structural chunky sneaker trend. Outfitted with heavy-duty layered mesh panels, textured nubuck detailing, and complex triple-stacked clear translucent outsoles.",
+      "images": "[\"https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 16,
+      "sku": "BAL-TRIP-S-CS-GRY",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-25-0\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-26T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-25-1\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-21T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-25-2\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-16T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-26",
+      "categoryid": "2",
+      "name": "Bottega Veneta Intrecciato Classic Bi-Fold Leather Wallet",
+      "price": 620,
+      "description": "A quiet luxury essential. Constructed without external logos, utilizing Bottega Veneta's signature hand-woven Intrecciato leather ribbon grids in supple calfskin, containing multiple structured internal slots.",
+      "images": "[\"https://images.unsplash.com/photo-1627124212889-74d4ad2224aff?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 20,
+      "sku": "BOT-VNT-INTREC-WLT",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-26-0\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-25T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-26-1\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-20T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-26-2\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-15T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-26-3\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-10T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-27",
+      "categoryid": "3",
+      "name": "Herman Miller Aeron Ergonomic Office Chair (Mineral)",
+      "price": 1895,
+      "description": "Ergonomic seating redesigned for ultimate back-office safety. Employs custom Pellicle 8Z mesh with eight zones of varying tension. Equipped with PostureFit SL lumbar pads and fully-adjustable soft vinyl arm pads.",
+      "images": "[\"https://images.unsplash.com/photo-1505797149-43b0069ec26b?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 15,
+      "sku": "HML-AER-MIN-LE",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-27-0\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-24T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-27-1\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-19T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-27-2\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-14T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-27-3\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-09T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-27-4\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-04T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-28",
+      "categoryid": "3",
+      "name": "Eames Classic Lounge Chair and Ottoman in Premium Walnut",
+      "price": 3495,
+      "description": "The definitive landmark of modern furniture design. Features beautiful, hand-finished walnut wood veneers paired with buttery soft premium black grain leather. Features the classic swivel base and timeless mid-century aesthetic.",
+      "images": "[\"https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 8,
+      "sku": "EAM-LNC-WLN-LE",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-28-0\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-23T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-28-1\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-18T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-28-2\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-13T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-29",
+      "categoryid": "3",
+      "name": "Thuma The Bed Solid Walnut Platform Bed Frame",
+      "price": 1095,
+      "description": "Solid kiln-dried walnut wood panels that lock together securely using clean corner Japanese Castle Joints with zero metal screws or tools. Includes a soft cushioned headboard background.",
+      "images": "[\"https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 19,
+      "sku": "THM-BED-WLN-LE",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-29-0\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-22T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-29-1\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-17T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-29-2\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-12T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-29-3\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-07T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-30",
+      "categoryid": "3",
+      "name": "Timothy Oulton Kensington Tufted Chesterfield Leather Sofa",
+      "price": 3800,
+      "description": "Majestic, deeply-tufted Chesterfield sofa wrapped in thick, hand-distressed tobacco brown leather. Hand-driven gold-brass upholstery tacks, solid kiln-dried birch wood frame, and pocket coil suspension structure.",
+      "images": "[\"https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 6,
+      "sku": "TIM-KNS-CHV-LE",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-30-0\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-21T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-30-1\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-16T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-30-2\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-11T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-30-3\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-06T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-30-4\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-01T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-31",
+      "categoryid": "3",
+      "name": "West Elm Haven Modular Sectional Sofa",
+      "price": 2299,
+      "description": "Conformable deep modular lounge sectional with contract-grade corner-blocked solid wood frame. Features generous deep seating filled with custom feather-down blends and Stone Gray Belgian linen fabric.",
+      "images": "[\"https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 11,
+      "sku": "WEL-HAV-LIN-LE",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-31-0\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-30T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-31-1\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-25T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-31-2\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-20T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-32",
+      "categoryid": "3",
+      "name": "Restoration Hardware St. James Open-Shelf Storage Desk",
+      "price": 2495,
+      "description": "An grand architectural executive style desk handcrafted of solid distressed oak timbers. Showcases hand-carved corbel accents, double-shelved matching drawers, and custom-hammered pewter metal drop handles.",
+      "images": "[\"https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 7,
+      "sku": "RHD-ST-JAMES-DSK",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-32-0\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-29T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-32-1\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-24T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-32-2\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-19T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-32-3\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-14T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-33",
+      "categoryid": "3",
+      "name": "Noguchi Triangular Glass Top Coffee Table (Solid Oak)",
+      "price": 989,
+      "description": "The organic, museum-grade living room centerpiece designed by legendary Isamu Noguchi. Formed by a thick, polished 3/4-inch tempered glass plate sitting atop nested interlocked solid black oak wooden support bases.",
+      "images": "[\"https://images.unsplash.com/photo-1581428982868-e410dd047a90?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 14,
+      "sku": "NGI-COFFEE-TBL-OAK",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-33-0\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-28T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-33-1\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-23T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-33-2\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-18T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-33-3\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-13T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-33-4\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-08T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-34",
+      "categoryid": "3",
+      "name": "Knoll Womb Chair and Ottoman in Cashmere Blend upholstery",
+      "price": 3100,
+      "description": "The ultra-comfortable landmark lounge chair designed by Eero Saarinen. Wrapped inside premium heather gray cashmere wool blends over a molded reinforced fiberglass shell, complete with polished steel tripod bases.",
+      "images": "[\"https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 5,
+      "sku": "KNL-WOMB-CHR-GRAY",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-34-0\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-27T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-34-1\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-22T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-34-2\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-17T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-35",
+      "categoryid": "3",
+      "name": "Herman Miller Nelson Bubble Pendant Saucer Light",
+      "price": 495,
+      "description": "A soft visual glow designed by George Nelson. Showcases an organic saucer-like steel wire cage structure spray-coated with a semi-translucent textured polymer webbing to cast ambient glare-free illumination.",
+      "images": "[\"https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 25,
+      "sku": "HML-NLS-BUBBLE-SAC",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-35-0\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-26T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-35-1\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-21T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-35-2\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-16T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-35-3\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-11T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-36",
+      "categoryid": "3",
+      "name": "Ethnicraft Bok Solid Oak Dining Living Room Table",
+      "price": 1659,
+      "description": "A pure mid-century Scandinavian focal masterpiece. Crafted entirely of responsibly-sourced solid oak, exhibiting organic tapered structural legs and a hand-polished matte finish with durable oil treatments.",
+      "images": "[\"https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 9,
+      "sku": "ETH-BOK-DINING-TBL",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-36-0\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-25T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-36-1\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-20T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-36-2\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-15T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-36-3\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-10T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-36-4\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-05T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-37",
+      "categoryid": "3",
+      "name": "CB2 Gwyneth Boucle Loveseat Lounge Sofa",
+      "price": 1399,
+      "description": "A visually gorgeous curve with cloud-like textures. Highlighted with chunky, ultra-soft white boucle fabric upholstery over high-resiliency dense foam cores, set on a hidden recessed wooden rotation base.",
+      "images": "[\"https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 12,
+      "sku": "CB2-GWYNETH-BOUCLE",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-37-0\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-24T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-37-1\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-19T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-37-2\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-14T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-38",
+      "categoryid": "3",
+      "name": "Pottery Barn Benchwright Farmhouse Rustic Dining Bench",
+      "price": 699,
+      "description": "A bold, beautiful industrial dining seating piece. Constructed utilizing thick joists of kiln-dried pine timbers, featuring heavy exposed industrial iron bolt accents and hand-applied multi-step natural stains.",
+      "images": "[\"https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 17,
+      "sku": "PBN-BENCHWRIGHT-RST",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-38-0\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-23T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-38-1\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-18T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-38-2\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-13T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-38-3\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-08T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-39",
+      "categoryid": "4",
+      "name": "Baccarat Eye Amber Hand-Blown Lead Crystal Vase",
+      "price": 1340,
+      "description": "Exquisite geometric art piece. Features masterfully hand-blown double-cut amber lead crystal glass. The horizontal exterior cuts and vertical interior cuts reflect light in spectacular multi-directional amber gradients.",
+      "images": "[\"https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 13,
+      "sku": "BAC-EYE-AMB-LE",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-39-0\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-22T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-39-1\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-17T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-39-2\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-12T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-39-3\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-07T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-39-4\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-02T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-40",
+      "categoryid": "4",
+      "name": "Jo Malone London Wild Bluebell Luxury Giant Candle (2.1kg)",
+      "price": 540,
+      "description": "A gorgeous premium olfactory atmosphere. Giant four-wick luxury scented candle hand-poured in London. Delivers delicate woodland notes of bluebell offset by persimmon and white musk. Housed in a custom cream ceramic jar.",
+      "images": "[\"https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 15,
+      "sku": "JOM-WLD-BLU-LE",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-40-0\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-21T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-40-1\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-16T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-40-2\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-11T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-41",
+      "categoryid": "4",
+      "name": "Jonathan Adler Muse Porcelain & Polished Brass Candelabra",
+      "price": 495,
+      "description": "Surrealist, beautiful centerpiece styled with Jonathan Adler's signature relief faces. Features high-fired unglazed matte porcelain bowls offset by hand-polished, gleaming golden brass active candle holders.",
+      "images": "[\"https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 18,
+      "sku": "JON-MUS-CND-LE",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-41-0\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-30T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-41-1\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-25T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-41-2\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-20T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-41-3\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-15T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-42",
+      "categoryid": "4",
+      "name": "Dyson Purifier Hot+Cool Formaldehyde HP09 Air Purifier",
+      "price": 849,
+      "description": "Ensure complete healthy air in your living spaces. Purifier completely seals in particles using advanced HEPA H13 physical filtration standards. Continuously measures and analyzes room air quality, alerts you on dynamic LCD panels.",
+      "images": "[\"https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 22,
+      "sku": "DYS-HP09-PUR-LE",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-42-0\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-29T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-42-1\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-24T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-42-2\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-19T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-42-3\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-14T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-42-4\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-09T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-43",
+      "categoryid": "4",
+      "name": "Pendleton Yakima 100% Virgin Wool Camp Blanket",
+      "price": 289,
+      "description": "Rustic full-sized wool throw woven in historic Oregon mills. Heritage blankets modeled after standard elements used by early American shepherds. Woven with organic thick virgin wool and strong cotton warp fibers.",
+      "images": "[\"https://images.unsplash.com/photo-1600121848594-d8644e57abad?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 30,
+      "sku": "PEN-YAK-WOL-LE",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-43-0\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-28T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-43-1\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-23T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-43-2\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-18T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-44",
+      "categoryid": "4",
+      "name": "Philips Saeco Xelsis Deluxe Automatic Espresso Machine",
+      "price": 2199,
+      "description": "Indulge in barista-quality custom hot coffee beverages from a single gorgeous machine. Highlights an interactive color touchscreen displaying up to 22 configurable beverage recipes, built with high-quality ceramic mills.",
+      "images": "[\"https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 9,
+      "sku": "PHI-XELSIS-DLX-COF",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-44-0\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-27T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-44-1\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-22T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-44-2\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-17T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-44-3\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-12T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-45",
+      "categoryid": "4",
+      "name": "Breville the Oracle Touch Fully Automatic Coffee Machine",
+      "price": 2699,
+      "description": "The absolute premium master class in home espresso setups. Automatically grinds, doses, and tamps high-quality espresso coffee, accompanied by a self-cleaning professional steam wand that textures silky milk foam.",
+      "images": "[\"https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 7,
+      "sku": "BRV-ORACLE-TCH-ESP",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-45-0\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-26T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-45-1\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-21T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-45-2\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-16T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-45-3\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-11T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-45-4\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-06T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-46",
+      "categoryid": "4",
+      "name": "Assouline Ultimate Collection Luxury Book Set (3 Volume)",
+      "price": 1200,
+      "description": "A gorgeous, high-end visual luxury centerpiece for the modern coffee table. Comprising three magnificent, giant-format hand-bound volumes showcasing art, master travel photography, and exquisite design histories.",
+      "images": "[\"https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 12,
+      "sku": "ASL-ULTIMATE-V3-SET",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-46-0\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-25T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-46-1\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-20T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-46-2\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-15T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-47",
+      "categoryid": "4",
+      "name": "Vitamix A3500 Ascent Series Smart Professional Blender",
+      "price": 649,
+      "description": "The ultimate culinary power workstation used by commercial chefs worldwide. Programmed with 5 smart presets, automatic container size sensing, and rugged custom laser-cut heavy steel physical blades.",
+      "images": "[\"https://images.unsplash.com/photo-1578643463396-0997cb5328c1?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 20,
+      "sku": "VTX-ASC-A3500-SMT",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-47-0\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-24T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-47-1\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-19T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-47-2\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-14T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-47-3\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-09T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-48",
+      "categoryid": "4",
+      "name": "Rinnai Premium Residential Grade Smart Tankless Water Heater",
+      "price": 1499,
+      "description": "An incredibly efficient premium appliance delivering endless home-wide hot water on demand. Equipped with integrated Wi-Fi monitoring sensors, smart home integration, and highly durable double copper heat exchangers.",
+      "images": "[\"https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 4,
+      "sku": "RNI-TANKLESS-HYB-SMT",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-48-0\",\"reviewerName\":\"Zara Patel\",\"rating\":4,\"title\":\"Extremely pleased with the luxury feel\",\"comment\":\"Beautiful aesthetics, and perfectly functional. The documentation and certificate of authenticity included are a wonderful, reassuring touch.\",\"createdAt\":\"2026-05-23T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-48-1\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-18T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-48-2\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-13T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-48-3\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-08T20:39:24.992Z\"},{\"id\":\"rev-seed-p-seed-48-4\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-03T20:39:24.992Z\"}]"
+    },
+    {
+      "id": "p-seed-49",
+      "categoryid": "4",
+      "name": "Lalique Anemone Hand-Crafted Clear & Satin Glass Figurine",
+      "price": 790,
+      "description": "An exquisite French crystal creation originally conceived by legendary artist René Lalique in 1912. Expertly hand-blownclear and satin-polished glass crystal flower highlighting beautiful onyx enamel center folds.",
+      "images": "[\"https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 10,
+      "sku": "LLQ-ANEMONE-FIG",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-49-0\",\"reviewerName\":\"Alexander Vance\",\"rating\":5,\"title\":\"Absolute masterclass in craftsmanship\",\"comment\":\"This is a masterpiece. It took me some time to pull the trigger due to the premium price tag, but holding and using it makes everything clear. Absolutely worth every single penny.\",\"createdAt\":\"2026-05-22T20:39:24.993Z\"},{\"id\":\"rev-seed-p-seed-49-1\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-17T20:39:24.993Z\"},{\"id\":\"rev-seed-p-seed-49-2\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-12T20:39:24.993Z\"}]"
+    },
+    {
+      "id": "p-seed-50",
+      "categoryid": "4",
+      "name": "Balmuda The Toaster Steam Oven (Special Limited Edition)",
+      "price": 329,
+      "description": "The acclaimed Japanese countertop steam oven. Uses state-of-the-art steam heating technology alongside micro-managed heating grids to lock in inside moisture while rendering a perfect golden exterior crust.",
+      "images": "[\"https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=600&q=80\"]",
+      "stock": 15,
+      "sku": "BMD-STEAM-TOAST-LMD",
+      "reviews": "[{\"id\":\"rev-seed-p-seed-50-0\",\"reviewerName\":\"Sophia Sterling\",\"rating\":5,\"title\":\"Exceeded my high expectations!\",\"comment\":\"This product feels heavy, robust, and performs beautifully. I've been shopping on premium marketplaces for years and this matches or exceeds top-tier couture. Five stars all around.\",\"createdAt\":\"2026-05-21T20:39:24.993Z\"},{\"id\":\"rev-seed-p-seed-50-1\",\"reviewerName\":\"Dr. Marcus Chen\",\"rating\":4,\"title\":\"Phenomenal build, minor freight delay\",\"comment\":\"A magnificent item. The design is spectacular and materials are ultra-luxurious. Deducting one star because delivery took an extra day, but product itself is flawless.\",\"createdAt\":\"2026-05-16T20:39:24.993Z\"},{\"id\":\"rev-seed-p-seed-50-2\",\"reviewerName\":\"Isabella Rossi\",\"rating\":5,\"title\":\"Magnifique!\",\"comment\":\"Stunning craftsmanship and unbelievable attention to detail. This was packed in structured heavy custom crates. This company takes luxury seriously. I will definitely buy again.\",\"createdAt\":\"2026-05-11T20:39:24.993Z\"},{\"id\":\"rev-seed-p-seed-50-3\",\"reviewerName\":\"Liam Gallagher\",\"rating\":5,\"title\":\"Real high-end caliber\",\"comment\":\"Unbelievable fidelity. It screams top shelf from the moment you unpack the seal. If you want a cheap plasticky alternative go to a budget outlet; this is for serious appreciators.\",\"createdAt\":\"2026-05-06T20:39:24.993Z\"}]"
+    }
+  ],
+  "orders": [],
+  "settings": [
+    {
+      "paypalemail": "merchant-billing@rare.us",
+      "businessname": "Rare LLC",
+      "isenabled": true
+    }
+  ],
+  "admin": [
+    {
+      "username": "Maidul",
+      "passwordhash": "c59f2097511f21592af4a5b59394c2b65c117bc4cf2cbd336142e4be11fce7c7"
+    }
+  ],
+  "users": []
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Rare",
+  "description": "Interactive plants and gardening e-commerce website with guest checkout, shopping cart, manual PayPal flow, and secure admin panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

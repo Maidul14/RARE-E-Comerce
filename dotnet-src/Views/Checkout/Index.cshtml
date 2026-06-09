@@ -1,0 +1,126 @@
+@model ApexUSCommerce.ViewModels.CheckoutViewModel
+@{
+    ViewData["Title"] = "Guest Shipping Checkout";
+    var cartItems = ViewData["CartItems"] as IEnumerable<ApexUSCommerce.Controllers.CartItemSession> ?? new List<ApexUSCommerce.Controllers.CartItemSession>();
+    var subtotal = (decimal)(ViewData["Subtotal"] ?? 0m);
+    var tax = Math.Round(subtotal * 0.08m, 2);
+    var shipping = subtotal >= 75.00m ? 0.00m : 9.99m;
+    var total = subtotal + tax + shipping;
+}
+
+<div class="row g-5">
+    <!-- Shipping Address Registration Form -->
+    <div class="col-lg-7">
+        <div class="card border-0 shadow-sm p-4 p-md-5 rounded-4 bg-white">
+            <h4 class="fw-bold border-bottom pb-3 mb-4 text-slate-900"><i class="bi bi-geo-alt-fill text-primary"></i> Guest Shipping Address</h4>
+
+            <form asp-controller="Checkout" asp-action="Index" method="post" class="needs-validation">
+                @Html.AntiForgeryToken()
+
+                <div class="row g-3">
+                    <div class="col-sm-6">
+                        <label asp-for="FullName" class="form-label text-xs fw-bold text-muted uppercase font-mono"></label>
+                        <input asp-for="FullName" class="form-control rounded-3 py-2 px-3 text-sm focus-ring" placeholder="John Smith" />
+                        <span asp-validation-for="FullName" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label asp-for="Email" class="form-label text-xs fw-bold text-muted uppercase font-mono"></label>
+                        <input asp-for="Email" type="email" class="form-control rounded-3 py-2 px-3 text-sm focus-ring" placeholder="jsmith@example.com" />
+                        <span asp-validation-for="Email" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-12">
+                        <label asp-for="Phone" class="form-label text-xs fw-bold text-muted uppercase font-mono"></label>
+                        <input asp-for="Phone" class="form-control rounded-3 py-2 px-3 text-sm focus-ring" placeholder="(555) 019-2834" />
+                        <span asp-validation-for="Phone" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-12">
+                        <label asp-for="Address" class="form-label text-xs fw-bold text-muted uppercase font-mono"></label>
+                        <input asp-for="Address" class="form-control rounded-3 py-2 px-3 text-sm focus-ring" placeholder="123 Main Street, Apt 4B" />
+                        <span asp-validation-for="Address" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="City" class="form-label text-xs fw-bold text-muted uppercase font-mono"></label>
+                        <input asp-for="City" class="form-control rounded-3 py-2 px-3 text-sm focus-ring" placeholder="Portland" />
+                        <span asp-validation-for="City" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-md-3">
+                        <label asp-for="State" class="form-label text-xs fw-bold text-muted uppercase font-mono"></label>
+                        <input asp-for="State" class="form-control rounded-3 py-2 px-3 text-sm focus-ring" placeholder="OR" />
+                        <span asp-validation-for="State" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-md-3">
+                        <label asp-for="ZipCode" class="form-label text-xs fw-bold text-muted uppercase font-mono"></label>
+                        <input asp-for="ZipCode" class="form-control rounded-3 py-2 px-3 text-sm focus-ring" placeholder="97201" />
+                        <span asp-validation-for="ZipCode" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-12">
+                        <label asp-for="Country" class="form-label text-xs fw-bold text-muted uppercase font-mono"></label>
+                        <input asp-for="Country" class="form-control rounded-3 py-2 px-3 text-sm bg-light font-mono" readonly />
+                    </div>
+                </div>
+
+                <div class="text-danger small my-3" asp-validation-summary="ModelOnly"></div>
+
+                <button class="btn btn-primary w-100 py-3 rounded-3 mt-4 fw-bold shadow-md shadow-primary-subtle" type="submit">
+                    Confirm Shipping & Proceed To Payment <i class="bi bi-chevron-right"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Order Manifest Review sidebar -->
+    <div class="col-lg-5">
+        <div class="card border-0 shadow-lg p-4 rounded-4 bg-dark text-white">
+            <h5 class="fw-bold text-uppercase font-mono text-xs text-primary mb-4 tracking-wider"><i class="bi bi-receipt"></i> Items Shipping Summary</h5>
+
+            <div class="space-y-3 mb-4" style="max-height: 250px; overflow-y: auto;">
+                @foreach (var item in cartItems)
+                {
+                    <div class="d-flex align-items-center justify-content-between py-2 border-bottom border-secondary last-no-border">
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="@item.ImageUrl" alt="@item.Name" class="rounded-2 border border-secondary shrink-0" style="width: 44px; height: 44px; object-fit: cover;" />
+                            <div class="min-w-0" style="max-width: 180px;">
+                                <h6 class="text-white text-sm fw-bold mb-0 text-truncate">@item.Name</h6>
+                                <span class="text-xs text-muted font-mono">Qty: @item.Quantity</span>
+                            </div>
+                        </div>
+                        <span class="text-white text-sm font-bold font-mono">$@((item.Price * item.Quantity).ToString("F2"))</span>
+                    </div>
+                }
+            </div>
+
+            <div class="border-top border-secondary pt-4 text-xs font-mono text-secondary space-y-2">
+                <div class="d-flex justify-content-between mb-2">
+                    <span>Items Subtotal</span>
+                    <span class="text-light">$@subtotal.ToString("F2")</span>
+                </div>
+                <div class="d-flex justify-content-between mb-2">
+                    <span>US Sales Tax (8%)</span>
+                    <span class="text-light">$@tax.ToString("F2")</span>
+                </div>
+                <div class="d-flex justify-content-between mb-3">
+                    <span>Shipping Policy</span>
+                    @if (shipping == 0)
+                    {
+                        <span class="fw-bold text-success">FREE SHIPPING</span>
+                    }
+                    else
+                    {
+                        <span class="text-light">$@shipping.ToString("F2")</span>
+                    }
+                </div>
+                <div class="border-top border-secondary pt-3 d-flex justify-content-between mb-0 fs-5">
+                    <span class="text-white fw-bold">Payable Total</span>
+                    <span class="text-primary fw-black font-bold">$@total.ToString("F2")</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
